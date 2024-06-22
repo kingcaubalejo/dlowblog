@@ -1,7 +1,7 @@
 +++
 author = "dlowrenz"
 title = "What file upload: multiple"
-date = "2024-06-19"
+date = "2024-06-30"
 description = "One of my many articles."
 type = [
     "recent"
@@ -17,7 +17,11 @@ did not do it for some reason. And we are having multiple issues about our singl
 
 I started researching about it and how I can integrate it to serverless framework. Where in a single lambda function could handle a hard limit 10 mb of data in total at once or single invocation.
 
-// Will Continue Tomorrow
+It might be a well-knowed problem. This task could be an easy peasy for other developers, making an HTTP file uploading. But how does file uploading works was my question. 
 
-> Sometimes it is the people no one can imagine anything of who do the things no one can imagine..
-> *~Alan Turing*.
+## What is file upload?
+---
+[File Upload](https://cloudinary.com/guides/front-end-development/file-upload-as-a-service-how-it-works-and-5-leading-solutions#:~:text=File%20uploads%20can%20be%20initiated,remote%20server%20or%20storage%20location) refers to the process of transferring digital files from a local device or machine to a remote server or storage location using a network. Given that, I need a solution to steamline the process.
+The current design was there's a 2 api calling the `process file` and `store file`.
+
+The upload api will be triggered and `process file` will take place and the `store file` will return the signedUrl and it's up to the Frontend/Client how to consume the data returned.

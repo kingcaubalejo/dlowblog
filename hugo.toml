@@ -7,7 +7,7 @@ relativeURLs = true
 enableEmoji = true
 googleAnalytics = ""
 enableRobotsTXT = true
-copyright = "&copy; Copyright Year, Your Name"
+copyright = "&copy; 2024 | dlowrenz@kwaliti-ph.com"
 ignoreErrors = ['error-missing-instagram-accesstoken']
 
 # Main menu items
@@ -18,12 +18,12 @@ ignoreErrors = ['error-missing-instagram-accesstoken']
     title = "About me"
     url = "/about/"
     weight = -110
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    title = "Projects"
-    url = "/project/"
-    weight = -100
+  #[[menu.main]]
+  #  identifier = "projects"
+  #  name = "Projects"
+  #  title = "Projects"
+  #  url = "/project/"
+  #  weight = -100
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
