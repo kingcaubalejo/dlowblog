@@ -62,7 +62,8 @@ jobs:
           TZ: America/Los_Angeles
         run: |
           hugo \
-            --gc        
+            --gc \
+            --minify        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
