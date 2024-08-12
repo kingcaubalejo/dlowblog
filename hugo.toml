@@ -53,3 +53,9 @@ ignoreErrors = ['error-missing-instagram-accesstoken']
 
 
 [deployment]
+
+[[deployment.targets]]
+
+name = "production"
+
+URL = "s3://jemstore.qualitech.digital?region=ap-northeast-1"
