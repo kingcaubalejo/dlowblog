@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en-us"><head>
+    <title>My New Hugo Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Fire fighting after NS transfer: A crazy one." />
+
+    
+    
+    
+    <link rel="stylesheet" href="../../css/theme.min.css">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/dtnxyivj1/image/upload/v1707192145/favicon_m3kzej.ico" />
+    
+    
+    
+
+    
+</head>
+<body>
+        <div id="content" class="mx-auto"><header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
+    <div class="row">
+        
+        <div class="col-sm-4 col-12 text-sm-right text-center pt-sm-4">
+            <a href="../../" class="text-decoration-none">
+                <img id="home-image" class="rounded-circle"
+                    
+                        
+                            src="../../images/avatar.jpeg"
+                        
+                    
+                />
+            </a>
+        </div>
+        <div class="col-sm-8 col-12 text-sm-left text-center">
+        
+            <h2 class="m-0 mb-2 mt-4">
+                <a href="../../" class="text-decoration-none">
+                    
+                        Hi! I am Lawrence
+                    
+                </a>
+            </h2>
+            <p class="text-muted mb-1">
+                
+                    write code like as if your grandmother will maintain it
+                
+            </p>
+            <ul id="nav-links" class="list-inline mb-2">
+                
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../about/" title="About me">About me</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../post/" title="Posts">Posts</a>
+                    </li>
+                
+            </ul>
+            <ul id="nav-social" class="list-inline">
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="https://github.com/kingcaubalejo" target="_blank">
+                            <i class="fab fa-github fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="https://www.linkedin.com/in/king-lawrence-caubalejo-a7864a253/" target="_blank">
+                            <i class="fab fa-linkedin-in fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+    <hr />
+</header>
+<div class="container">
+    <div class="pl-sm-2">
+        <div class="mb-3">
+            <h3 class="mb-0">Fire fighting after NS transfer: A crazy one.</h3>
+            
+            <small class="text-muted">Published February 6, 2024</small>
+        </div>
+
+        <article>
+            <h2 id="i-became-a-fire-fighter">I became a fire fighter.</h2>
+<p>We had a task to transfer our new website designed in Wix to our current domain. So Wix is a CMS tool for me; it has NS (nameservers) and other domain-related stuff. Our architecture is like this: we have the domain <a href="https://www.mydomain.com">www.mydomain.com</a>, which has multiple subdomains attached to it. Everything was working fine until we transferred the nameservers of Wix to our domain hosting.</p>
+<h2 id="but-let-me-narrate-how-a-dns-works">But let me narrate how a DNS works.</h2>
+<p>DNS is like the internet&rsquo;s address book. When you type a website address (like google.com) into your browser, your computer needs to know the corresponding IP address (like 192.0.2.1) of the server where that website is hosted. Here&rsquo;s how it works:</p>
+<p><strong>1. Request Initiation:</strong> Your computer sends a request to a DNS resolver (like your internet service provider&rsquo;s DNS server) asking for the IP address associated with the domain name you entered.</p>
+<p><strong>2. DNS Lookup:</strong> If the resolver knows the IP address already, great! It sends it back to your computer. If not, it starts a series of lookups.</p>
+<p><strong>3. Recursive Lookup:</strong> The resolver may have to ask other DNS servers. It starts with the root DNS servers, then moves to the top-level domain (like &ldquo;.com&rdquo;), then the authoritative DNS servers responsible for the specific domain (like &ldquo;google.com&rdquo;). Each step narrows down the search until it finds the IP address.</p>
+<p><strong>4. Response:</strong> Once the resolver finds the IP address, it sends it back to your computer.</p>
+<p><strong>5. Caching:</strong> To speed up future requests, your computer and the resolver might cache the IP address for a while so they don&rsquo;t have to go through the whole process again.</p>
+<p>By the way, we are using GoDaddy, and everything there seems to be easy. I led the transfer alongside my manager, who was there to witness the procedure. However, after some time, we experienced an outage. A fire was burning our APIs. The funny part is that we did it without thinking that it is Business as Usual (BAU). In short, we have live users. Brave, so brave. I quickly ran through our DNS, which is with GoDaddy, and reverted back all the changes. But since the issue here is DNS, I had nothing else to do but wait for it to finish resolving for other users. Going through this left me with a bunch of valuable lessons.</p>
+<h4 id="lesson-learned">Lesson Learned</h4>
+<ul>
+<li>Don&rsquo;t do anything silly if it is in BAU (Business As Usual).</li>
+<li>Check the traffic of the domain before doing anything crazy.</li>
+<li>Involve more eyes in the change.</li>
+</ul>
+<p>It seems like everyday is day to learn new things.</p>
+
+        </article>
+    </div>
+
+    
+
+            </div>
+        </div><footer class="text-center pb-1">
+    <small class="text-muted">
+        
+            &copy; 2024 | dlowrenz@kwaliti-ph.com
+        
+    </small>
+</footer>
+</body>
+</html>

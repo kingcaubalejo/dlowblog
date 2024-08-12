@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2024 | dlowrenz@kwaliti-ph.com</copyright>
+    <lastBuildDate>Sat, 22 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s up? I am back!</title>
+      <link>/post/back-again/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>/post/back-again/</guid>
+      <description>For the past three months of being inactive in posting, I realized how fast time flies. I participated in some activities at our local church. We created an online registration system, and I designed its infrastructure. We heavily depend on AWS as the infrastructure is purely based on AWS services. I can&amp;rsquo;t show you the images or the design because, currently, I don&amp;rsquo;t know how to.&#xA;I opened a ticket issue to the author of the theme that I am using and hopefully I get a reply, you&amp;rsquo;ll notice if I got some answers If my posts will have some pictures on it.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/archives/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>/archives/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Being a lecturer is awesome: Really?</title>
+      <link>/post/i-am-also-a-lecturer/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/post/i-am-also-a-lecturer/</guid>
+      <description>Teaching is the profession that teaches all the other professions. ~Unknown.&#xA;Once upon a time&amp;hellip; after being a professional developer for almost 3 years, and tasks are being repeated. I felt like I was on a whormwhole of my thoughts. Suddenly, I became burnout.&#xA;Ever heared about Programmers Burnout? I thought that was just a myth or something that ain&amp;rsquo;t real. But like any other developers who struggle on it.</description>
+    </item>
+    <item>
+      <title>Enhanced Monitoring Encoder: API</title>
+      <link>/project/eme/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/project/eme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/about/</guid>
+      <description>When I was in high school, I started liking programming a lot. I learned to make a special file called a &amp;ldquo;shutdown&amp;rdquo; file. It was like a magic button! I put it on our school&amp;rsquo;s Facebook page, and when someone clicked it, their computer would turn off after a minute. I thought I was a super hacker!&#xA;But now that I&amp;rsquo;m older, I realize it wasn&amp;rsquo;t really hacking, just a silly trick.</description>
+    </item>
+    <item>
+      <title>Fire fighting after NS transfer: A crazy one.</title>
+      <link>/post/fire-figthing-after-transfering-nameservers/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/post/fire-figthing-after-transfering-nameservers/</guid>
+      <description>I became a fire fighter. We had a task to transfer our new website designed in Wix to our current domain. So Wix is a CMS tool for me; it has NS (nameservers) and other domain-related stuff. Our architecture is like this: we have the domain www.mydomain.com, which has multiple subdomains attached to it. Everything was working fine until we transferred the nameservers of Wix to our domain hosting.&#xA;But let me narrate how a DNS works.</description>
+    </item>
+    <item>
+      <title>The New Beginning</title>
+      <link>/post/the-new-beginning/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/post/the-new-beginning/</guid>
+      <description>WTF! (When Things Follow) Learning is an ongoing journey, a path that unfolds with every step we take. For me, programming isn&amp;rsquo;t just about writing lines of code; it&amp;rsquo;s a creative outlet, a means to express the intricate interplay of my thoughts and emotions.&#xA;Imagine programming as a vast canvas, waiting to be adorned with the brushstrokes of logic and creativity. Each line of code is like a stroke of paint, carefully applied to bring life to the blank space before me.</description>
+    </item>
+  </channel>
+</rss>
