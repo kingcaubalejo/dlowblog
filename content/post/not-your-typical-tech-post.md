@@ -44,3 +44,5 @@ No one knows what the future holds. Only Him knows what's next. As they say, don
 3. Struggling emotionally.
 4. Impostor syndrome.
 
+Nonetheless, 2024 has been a great ride. And will expect more this 2025. To God be the Glory!
+
