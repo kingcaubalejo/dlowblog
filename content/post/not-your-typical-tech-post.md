@@ -17,16 +17,11 @@ some few highlights that I would like to mention before this year closes.
 
 #### Don't Rush Things
 
-I mean, rush package manager is quite odd if you are a bias with npm. But hey, it's not about tech! I realized that I always
-want to do things in rush. Learning new tech, programming language, different domains, and many more. 
-
-In the beginning, I thought I am making progress, but little do I know, I am rushing and it makes things slower. Breaking into tech is not an easy path to take. It's a vast ocean of diffirent possibilities. Rowing your both without any direction is worst than failing with direction.
+I mean, rush package manager is quite odd if you are a bias with npm. But hey, it’s not about tech! I realized that I always want to do things in rush. I haste in learning new tech, programming language, different domains, and many more. In the beginning, I thought I was making progress, but little did I know, I am rushing and it makes things slower. Breaking into tech is not an easy path to take. It’s a vast ocean of different possibilities. Rowing your boat without any direction is worse than failing with direction.
 
 #### I got married
 
-Fun fact, I don't like English. Not because I can't speak and write it, I just find it difficult. And fortunately, I married an English major. And from the time I am writing this, she will for sure check the grammar of this blogpost.
-
-This is the most significant thing that happened to me this 2024. The prepartion is tremendously difficult and I can't help myself to say that "Thank God" as we have successfully pulled it off.
+Fun fact, I don’t like English. Not because I can’t speak and write it, I just find it difficult. Fortunately, I married an English subject teacher. From the time I began writing this, she will for sure check the grammar of this blogpost. The wedding preparation was tremendously difficult. I can’t help but say “Thank God” as we have successfully pulled it off. This is the most significant thing that happened to me this 2024. 
 
 
 #### I am a Christian and believes in the Message
@@ -35,7 +30,7 @@ I stand on my faith, and will die with it.
 
 #### What's next?
 
-No one knows what the future holds. Only Him knows what's next. As they say, don't fight the current. To be honest, I have alot of dreams and ambitions. But knowing that I won't carry it to my grave makes me think of it. But I will be selfish if I will not do something for others.
+No one knows what the future holds. Only Him knows what’s next. As they say, don’t fight the current. To be honest, I have a lot of dreams and ambitions. However, knowing that I won’t carry it to my grave makes me think more about it. But I will be selfish if I will not do something for others.
 
 #### Other highlights.
 
